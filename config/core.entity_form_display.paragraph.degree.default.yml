@@ -5,7 +5,6 @@ dependencies:
   config:
     - field.field.paragraph.degree.field_degree
     - field.field.paragraph.degree.field_honorary
-    - field.field.paragraph.degree.field_honors
     - field.field.paragraph.degree.field_institution
     - field.field.paragraph.degree.field_location
     - field.field.paragraph.degree.field_year
@@ -29,14 +28,6 @@ content:
     region: content
     settings:
       display_label: true
-    third_party_settings: {  }
-  field_honors:
-    type: string_textfield
-    weight: 4
-    region: content
-    settings:
-      size: 60
-      placeholder: ''
     third_party_settings: {  }
   field_institution:
     type: string_textfield
