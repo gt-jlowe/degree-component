@@ -1,0 +1,10 @@
+{
+  "name": "drupal/degree_component_recipe",
+  "type": "drupal-recipe",
+  "description": "A recipe for a 'Degree' Paragraph component.",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "drupal/paragraphs": "^1.17",
+    "drupal/inline_entity_form": "^3.0"
+  }
+}

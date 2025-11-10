@@ -1,0 +1,13 @@
+name: 'Degree Component (Paragraph)'
+description: 'Adds a "Degree" Paragraph type with fields for institution, year, honors, etc. Uses Inline Entity Form.'
+type: 'recipe'
+
+# List MODULES and THEMES to install
+install:
+  - 'paragraphs'
+  - 'inline_entity_form'
+  - 'entity_reference_revisions'
+
+# List other RECIPES this recipe depends on (if any)
+# We don't have any for this component, so you can leave this out.
+recipes: []
